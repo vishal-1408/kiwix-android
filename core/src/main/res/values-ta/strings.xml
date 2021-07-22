@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
+* Gurulenin
 * Kanags
 * Kelson
 -->
@@ -12,13 +13,43 @@
   <string name="menu_random_article">தொடர்பற்ற கட்டுரை</string>
   <string name="menu_full_screen">முழு திரை</string>
   <string name="menu_exit_full_screen">முழு திரையிலிருந்து வெளியேறுக</string>
-  <string name="save_media">ஊடகப்பொருளை இவ்வாறு சேமித்து வை</string>
-  <string name="save_media_error" fuzzy="true">ஊடகப்பொருளை சேமிக்கும் முயற்சியில் ஒரு பிழை நேர்ந்துவிட்டது!</string>
+  <string name="menu_read_aloud">உரக்கப்படி</string>
+  <string name="menu_read_aloud_stop">சத்தமாக வாசிப்பதை நிறுத்து</string>
+  <string name="menu_support_kiwix">கிவிக்ஸ் ஆதரவு</string>
+  <string name="menu_wifi_hotspot">WiFi பகிரலை</string>
+  <string name="save_media">ஊடகத்தை சேமிக்கவும்</string>
+  <string name="save_media_error">ஊடகப்பொருளை சேமிக்கும் முயற்சியில் ஒரு பிழை நேர்ந்துவிட்டது!</string>
   <string name="save_media_saved" fuzzy="true">தங்களுடைய படங்களின் கொப்புறைக்குள், ஊடகப்பொருளை இவ்வாறு %1$s சேமிக்கவும்</string>
   <string name="search_label">தேடு</string>
-  <string name="choose_file" fuzzy="true">ZIM கோப்பை தேர்வு செய் (*.zim)</string>
-  <string name="open_in_new_tab">இணைப்பை புதிய தாவலில் திறக்கவேண்டுமா?</string>
+  <string name="choose_file">கோப்பை தேர்வு செய் (*.zim)</string>
+  <string name="open_in_new_tab">புதிய தாவலில் இணைப்பைத் திறக்கவா?</string>
+  <string name="hotspot_service_channel_name">பகிரலை சேவை நிலையம்</string>
+  <string name="hotspot_failed_title">பகிரலையைத் தொடங்க முடியவில்லை</string>
+  <string name="hotspot_failed_message">உங்கள் பகிரலை ஏற்கனவே இயக்கப்பட்டிருப்பது போல் தெரிகிறது. தயவுசெய்து உங்கள் வைஃபை பகிரலையை முடக்கவும்.</string>
+  <string name="go_to_wifi_settings_label">வைஃபை அமைப்புகளுக்குச் செல்லவும்</string>
+  <string name="connection_refused">இணைப்பு மறுக்கப்பட்டது.</string>
+  <string name="hotspot_running">பகிரலையை இயக்குகிறது</string>
+  <string name="no_books_selected_toast_message">முதலில் புத்தகங்களைத் தேர்ந்தெடுக்கவும்</string>
+  <string name="server_failed_message">சேவையகத்தைத் தொடங்க முடியவில்லை. தயவுசெய்து உங்கள் பகிரலையை இயக்கவும்</string>
+  <string name="server_failed_toast_message">சேவையகத்தைத் தொடங்க முடியவில்லை.</string>
+  <string name="server_started_successfully_toast_message">சேவையகம் வெற்றிகரமாக தொடங்கியது.</string>
+  <string name="server_stopped_successfully_toast_message">சேவையகம் வெற்றிகரமாக நிறுத்தப்பட்டது.</string>
+  <string name="hotspot_turned_on">பகிரலை இயக்கப்பட்டது</string>
+  <string name="hotspot_details_message">உங்கள் உள்ளக பகிரலையின் விவரங்கள் பின்வருமாறு.\nSSID: %1$s\nPass: %2$s</string>
+  <string name="server_textview_default_message">சேவையகத்தில் நீங்கள் வழங்க விரும்பும் கோப்புகளைத் தேர்ந்தெடுக்கவும்</string>
+  <string name="progress_dialog_starting_server">சேவையகத்தைத் தொடங்குகிறது</string>
+  <string name="hotspot_dialog_title">புத்தகங்களை வழங்குவதற்கான வழிமுறைகள்</string>
+  <string name="wifi_dialog_title">வைஃபை இணைப்பு கண்டறியப்பட்டது</string>
+  <string name="wifi_dialog_body">பிற சாதனங்களில் புத்தகங்களைக் காண, எல்லா சாதனங்களும் ஒரே வைஃபை பிணையத்தில் இணைக்கப்பட்டுள்ளதா என்பதை உறுதிப்படுத்தவும்.</string>
+  <string name="hotspot_dialog_message">இந்த அம்சம் செயல்பட நீங்கள் முதலில் உங்கள் வைஃபை பகிரலையை கைமுறையாக இயக்க வேண்டும் அல்லது வழங்கி மற்றும் பெறப்படும் சாதனம் ஒரே வைஃபை பிணையத்தில் இருப்பதை உறுதி செய்ய வேண்டும்</string>
+  <string name="hotspot_dialog_neutral_button">தொடர</string>
+  <string name="hotspot_channel_description">உங்கள் பகிரலை / சேவையகத்தின் நிலை குறித்த புதுப்பிப்புகள்.</string>
+  <string name="hotspot_notification_content_title">கிவிக்ஸ் பகிரலை</string>
+  <string name="start_server_label">சேவையகத்தைத் தொடங்கு</string>
+  <string name="stop_server_label">சேவையகத்தை நிறுத்து</string>
+  <string name="server_started_message">%s சேவையகத்தை அணுக உங்கள் உலாவியில் இந்த ஐபி முகவரியை உள்ளிடவும்</string>
   <string name="error_file_not_found">பிழை: தேர்வு செய்யப்பட்ட ZIM கோப்பு காணப்படவில்லை</string>
+  <string name="zim_not_opened">ZIM கோப்பைத் திறக்க முடியவில்லை</string>
   <string name="error_file_invalid">பிழை: தேர்வு செய்யப்பட்ட கோப்பு, ஏற்புடைய ZIM கோப்பு அல்ல</string>
   <string name="error_article_url_not_found">பிழை: (Url: %1$s) கட்டுரையை ஏற்றித்துவங்க தவறிவிட்டது</string>
   <string name="pref_display_title">காண்பி</string>
@@ -30,5 +61,47 @@
   <string name="pref_back_to_top_summary">மேற்பகுதிக்குச் செல்ல, பக்கத்‌தின் அடியில் ஒரு பொத்தானை காண்பி</string>
   <string name="pref_language_title">மொழி</string>
   <string name="pref_language_chooser">மொழியைத் தேர்ந்தெடு</string>
+  <string name="pref_credits">பங்களிப்பாளர்கள் மற்றும் உரிமங்கள்</string>
+  <string name="pref_credits_title">அங்கீகாரங்கள்</string>
+  <string name="tts_lang_not_supported">இந்தப் பக்கத்தின் மொழி ஆதரிக்கப்படவில்லை, அல்லது பொருத்தமான மொழித் தரவு நிறுவப்படவில்லை. கட்டுரையை சரியாகப் படிக்காமல் இருக்கலாம்.</string>
+  <string name="no_reader_application_installed">இந்த வகை கோப்பிற்கான நிறுவப்பட்ட செயலியைக் கண்டுபிடிக்க முடியவில்லை</string>
+  <string name="no_section_info">உள்ளடக்க தலைப்புகள் எதுவும் கிடைக்கவில்லை</string>
+  <string name="request_storage">அணைவரி உள்ளடக்கத்தை அணுக உங்கள் சேமிப்பகத்தை அணுக வேண்டும்</string>
+  <string name="clear_recent_and_tabs_history_dialog">உங்கள் தேடல் வரலாற்றை நீக்க மற்றும் அனைத்து செயலில் உள்ள தாவல்களையும் மீட்டமைக்க விரும்புகிறீர்களா?</string>
+  <string name="delete_recent_search_item">இந்த உருப்படியை நீக்கவா?</string>
+  <string name="pref_clear_all_history_title">வரலாற்றை நீக்கவும்</string>
+  <string name="pref_clear_all_history_summary">சமீபத்திய தேடல்கள் மற்றும் தாவல்களின் வரலாற்றை அழிக்கவும்</string>
+  <string name="pref_notes">குறிப்புகள்</string>
+  <string name="all_history_cleared">அனைத்து வரலாறும் அழிக்கப்பட்டது</string>
+  <string name="pref_clear_all_bookmarks_title">புத்தகக்குறிகளை அழி</string>
+  <string name="clear_all_history_dialog_title">எல்லா வரலாற்றையும் அழிக்கவா?</string>
+  <string name="share">பகிர்க</string>
+  <string name="selected_file_cab_app_chooser_title">இதனுடன் ZIM கோப்புகளைப் பகிரவும்:</string>
+  <string name="delete">நீக்கவும்</string>
+  <string name="cancel">ரத்து செய்</string>
+  <string name="delete_specific_search_toast">சமீபத்திய தேடல் அகற்றப்பட்டது</string>
+  <string name="hint_contents_drawer_message">இந்த கட்டுரையின் உள்ளடக்கங்களைக் காண நீங்கள் இடதுபுறமாக தேய்க்கவும்</string>
+  <string name="got_it">புரிந்துகொண்டேன்</string>
+  <string name="did_you_know">உங்களுக்கு தெரியுமா?</string>
+  <string name="undo">மீளமை</string>
+  <string name="tab_closed">தாவல் மூடப்பட்டது</string>
+  <string name="bookmark_added">புத்தகக்குறி சேர்க்கப்பட்டது</string>
+  <string name="rate_dialog_title">தயவுசெய்து எங்களை மதிப்பிடுங்கள்</string>
+  <string name="rate_dialog_msg_1">நீங்கள் பயன்படுத்தி மகிழ்ந்தால்</string>
+  <string name="rate_dialog_msg_2">, தயவுசெய்து மதிப்பிட சிறிது நேரம் ஒதுக்குங்கள். உங்கள் ஒத்துழைப்புக்கு நன்றி!</string>
+  <string name="rate_dialog_positive">எங்களின் தரம்!</string>
+  <string name="no_thanks">வேண்டாம், நன்றிகள்</string>
+  <string name="rate_dialog_neutral">பின்னர்</string>
+  <string name="open">திற</string>
+  <string name="bookmark_removed">புத்தகக்குறி அகற்றப்பட்டது</string>
+  <string name="pref_newtab_background_title">பின்னணியில் புதிய தாவலைத் திறக்கவும்</string>
+  <string name="pref_newtab_background_summary">புதிய தாவலைத் திறக்கும்போது அது பின்னணியில் திறக்கும்</string>
+  <string name="pref_extras">கூடுதல்கள்</string>
+  <string name="new_tab_snack_bar">கட்டுரை புதிய தாவலில் திறக்கப்பட்டது</string>
+  <string name="search_widget_text">கிவிக்ஸை தேடுங்கள்</string>
+  <string name="speech_prompt_text">%s ஐ தேட பேசுங்கள்</string>
+  <string name="speech_not_supported">மன்னிக்கவும்! உங்கள் சாதனம் பேச்சு உள்ளீட்டை ஆதரிக்காது</string>
+  <string name="local_zims">கருவி</string>
+  <string name="remote_zims">எழிவரி</string>
   <string name="library">நூலகம்</string>
 </resources>
